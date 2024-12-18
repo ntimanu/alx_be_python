@@ -52,3 +52,11 @@ Use basic Python arithmetic operations and variable assignments to calculate the
 
 **Script**: `future_age_calculator.py`
 This script takes age of the user and calculate age the user will be in 2050 and return the future age.
+
+### 5. Personal Finance Calculator
+
+**Objective**
+Use user input, variables, and arithmetic operations to calculate and provide feedback on a user’s monthly savings and potential future savings without applying conditional statements.
+
+**Script**: `finance_calculator.py`
+This script will calculate the user’s monthly savings based on inputted monthly income and expenses. It will then project these savings over a year, assuming a fixed interest rate, to demonstrate compound interest’s effect on savings.
