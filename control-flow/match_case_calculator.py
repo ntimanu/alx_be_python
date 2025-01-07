@@ -24,5 +24,5 @@ match operation:
 
 # Print the result if it's valid
 if result is not None:
-    print(f"Result: {result}")
+    print(f"The result is {result}.")
         
