@@ -21,5 +21,5 @@ def main():
     except ValueError:
         print("Please enter a valid integer for the number of days.")
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     main()
