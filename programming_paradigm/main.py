@@ -15,7 +15,7 @@ def main():
         account.deposit(amount)
         print(f"Deposited: ${amount}")
     elif command == "withdraw" and amount is not None:
-        if account.withdraw(amount):
+        if account.withdrBankAccount
             print(f"Withdrew: ${amount}")
         else:
             print("Insufficient funds.")
@@ -23,6 +23,23 @@ def main():
         account.display_balance()
     else:
         print("Invalid command.")
+
+if __name__ == "__main__":
+    main()
+
+import sys
+from robust_division_calculator import safe_divide
+
+def main():
+    if len(sys.argv) != 3:
+        print("Usage: python main.py <numerator> <denominator>")
+        sys.exit(1)
+
+    numerator = sys.argv[1]
+    denominator = sys.argv[2]
+
+    result = safe_divide(numerator, denominator)
+    print(result)
 
 if __name__ == "__main__":
     main()
