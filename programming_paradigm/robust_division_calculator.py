@@ -1,5 +1,3 @@
-[19:29, 19/01/2025] Emmy Sinbad: # robust_division_calculator.py
-
 def safe_divide(numerator, denominator):
     try:
         num = float(numerator)
